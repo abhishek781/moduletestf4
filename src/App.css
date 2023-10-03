@@ -1,3 +1,48 @@
+/* Add the new styles here */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: black;
+  height: 15px;
+
+}
+
+.title-box {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-title {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold; /* Make it bold */
+  margin-right: 20px; /* Add some spacing between the title and links */
+}
+
+.navbar-links ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links li {
+  font-size: 1.2rem;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Style the search button */
+
+
+/* Existing styles below */
+
 .App {
   text-align: center;
 }
